@@ -59,22 +59,17 @@ int BFS(int s)
 
         for(int i=0;i<b;i++)
         {
-            //cout<<v<<"->"<<nodes[v][i]<<endl;
             if(visited[nodes[v][i]]==false)
             {
                 Q.push(nodes[v][i]);
                 visited[nodes[v][i]]=true;
-               // cout<<"visited"<<endl;
             }
             if(c[nodes[v][i]]>(c[v]+1))
                 {
                     c[nodes[v][i]]=c[v]+1;
-                    //cout<<c[nodes[v][i]]<<endl;
                 }
         }
     }
-
-    return c[n*m];
 
 }
 
