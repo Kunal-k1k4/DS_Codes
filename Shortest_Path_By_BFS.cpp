@@ -1,4 +1,4 @@
-/* Bfs is used to find shortest path when all the edges weights are same */
+/* Bfs is used to find shortest path when all the edge weights are same */
 
 
 // @ -- Kunal Singh (KSR) --
